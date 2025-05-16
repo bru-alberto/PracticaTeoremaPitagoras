@@ -100,10 +100,17 @@ public class TrianguloRectangulo {
 		 * @return B
 		 */
 		public int getB() {
-			return a;
+			return b;
 		}
 		public void setB(int b) {
 			this.b = b;
+		}
+		
+		public double getC() {
+			return c;
+		}
+		public void setC(double c) {
+			this.c = c;
 		}
 		
 		
